@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HallRoomBooking", "WebApplication1\HallRoomBooking.csproj", "{B8087EC6-3E6F-4CDA-9DA7-01118DA98938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{CA6F0906-07D7-4E97-8D5D-5181B889808C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{4E360566-4EC3-4ED4-8F98-8F3C8420A722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8087EC6-3E6F-4CDA-9DA7-01118DA98938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8087EC6-3E6F-4CDA-9DA7-01118DA98938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8087EC6-3E6F-4CDA-9DA7-01118DA98938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8087EC6-3E6F-4CDA-9DA7-01118DA98938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6F0906-07D7-4E97-8D5D-5181B889808C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6F0906-07D7-4E97-8D5D-5181B889808C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6F0906-07D7-4E97-8D5D-5181B889808C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6F0906-07D7-4E97-8D5D-5181B889808C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E360566-4EC3-4ED4-8F98-8F3C8420A722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E360566-4EC3-4ED4-8F98-8F3C8420A722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E360566-4EC3-4ED4-8F98-8F3C8420A722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E360566-4EC3-4ED4-8F98-8F3C8420A722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4AB3957-357D-4DDF-852B-AC0DAEF864D6}
+	EndGlobalSection
+EndGlobal

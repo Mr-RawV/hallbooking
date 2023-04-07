@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "ViewHall";
+}
+<p>@ViewBag.msg</p>
+<h2>ViewHall</h2>
+@model List<Models.MeetingHallModel>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>IsActive</th>
+        </tr>
+        @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RowId</td>
+            <td>@item.HallName</td>
+            <td>@item.IsActive</td>
+        </tr>
+    }
+    </table>
